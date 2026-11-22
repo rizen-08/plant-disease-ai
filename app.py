@@ -7,8 +7,8 @@ import json
 from treatments import get_treatment_info
 
 st.set_page_config(page_title="Plant Disease AI", page_icon="🌿", layout="centered")
-st.title("🌿 Plant Disease AI & Treatment Advisor")
-st.write("Take or upload a photo of a plant leaf for an instant diagnosis (**98.36% accuracy across 121 classes**) and a tailored treatment plan.")
+st.title("🌿 Plant Disease Detector")
+st.write("Take or upload a photo of a plant leaf for an instant diagnosis and a tailored treatment plan.")
 
 model_path = "best_plant_model.pth"
 classes_json = "class_names.json"
